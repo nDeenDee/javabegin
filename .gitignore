@@ -1,12 +1,28 @@
-# Eclipse
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
-.settings/
+.settings
+.springBeans
  
 # Intellij
 .idea/
 *.iml
 *.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
  
 # Mac
 .DS_Store
@@ -14,3 +30,4 @@
 # Maven
 log/
 target/
+!.mvn/wrapper/maven-wrapper.jar
